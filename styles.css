@@ -165,6 +165,7 @@ h1 em{font-style:italic;color:var(--accent-2)}
 .skillcat h3{font-size:1rem;display:flex;align-items:center;gap:10px}
 .skillcat h3 .ic{width:30px;height:30px;border-radius:8px;background:var(--surface-2);display:grid;place-items:center;color:var(--accent-2)}
 .skillcat .pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
+.lc .lnk {font-family: var(--font-b);}
 
 /* achievements */
 .ach-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
@@ -183,7 +184,7 @@ h1 em{font-style:italic;color:var(--accent-2)}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,70px)}
 .contact p.lead2{color:var(--ink-dim);max-width:30rem}
 .links{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:10px;max-width:26rem}
-.lnk{display:flex;align-items:center;gap:12px;padding:13px 16px;border:1px solid var(--line);border-radius:13px;background:var(--surface);font-weight:600;transition:border-color .2s,transform .2s}
+.lnk{font-size: 0.8rem;font-family: var(--font-b);display:flex;align-items:center;gap:12px;padding:13px 16px;border:1px solid var(--line);border-radius:13px;background:var(--surface);font-weight:600;transition:border-color .2s,transform .2s}
 .lnk:hover{border-color:var(--accent-2);transform:translateX(3px)}
 .lnk .ic{flex:none;width:32px;height:32px;border-radius:9px;background:var(--surface-2);display:grid;place-items:center;color:var(--accent-2)}
 .form{border:1px solid var(--line);border-radius:20px;background:var(--surface);padding:clamp(24px,4vw,34px)}
